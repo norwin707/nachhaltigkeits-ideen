@@ -7,9 +7,9 @@ body {
 }
 body 
 #box {
-    height: 50px;
+    height: 125px;
     width: 250px;
-    background: rgb(0, 255, 21);
+    background: rgb(0, 255, 0);
     font: size 225px;
     text-align: center;
 }
@@ -19,10 +19,88 @@ body
 }
 body
 #box1 {
-    height: 250px;
+    height: 252px;
     width:250px;
-    background: green;
+    background: rgb(0, 255, 0);
     font: size 250px;
     text-align: center;
-    margin-left: 81%;
+    margin-left:81%;
+    position: relative;
+    margin-top: -125px;
+}
+.button {
+    background-color: rgb(0, 131, 0) ;
+    border: none;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+#box2 {
+    height: 80;
+    width: 200px;
+    background: rgb(0, 255, 0);
+    font: size 200px;
+    text-align: center;
+    margin-left: 1117px;
+    position: relative;
+    margin-top: -10;
+}
+#box3 
+{
+    height: 250px;
+    width: 350px;
+    background: rgb(255, 254, 254);
+    font: size 200px ;
+    text-align: center;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 950px;
+    
+}
+#box4 
+{
+    height: 800px;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    font: size 200px ;
+    text-align: center;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 250px
+    
+}
+#box5
+{
+    height: 0.5px;
+    width: 0.5px;
+    background: rgb(74, 95, 74);
+    font: size 1px ;
+    text-align: center;
+    margin-left: 1px;
+    position: relative;
+    margin-top: 300px
+    
+}
+#Image{
+    margin: auto;
+
+    background-image: url("https://gi.de/fileadmin/_processed_/3/1/csm_Keyvisual_Compsing_2__c8ab6fb7b0.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 250px;
+    width: 800px;
+    position: relative;
+    margin-top:100 ;
+    background-position: center;
+    top: 33%;
+    left: -100px;
 }
